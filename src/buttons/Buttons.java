@@ -186,7 +186,4 @@ public class Buttons extends JPanel {
         return HEIGHT;
     }
 
-    public double getButtonWIDTH() {
-        return WIDTH;
-    }
 }
