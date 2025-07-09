@@ -11,6 +11,7 @@ import menu.CoffeeMenu;
 import menu.DessertsMenu;
 import screens.Screens;
 
+
 public class Buttons extends JPanel {
     private JButton buttonCoffee;
     private JButton buttonBeverages;
@@ -186,4 +187,8 @@ public class Buttons extends JPanel {
         return HEIGHT;
     }
 
+    public double getButtonWIDTH() {
+        return WIDTH;
+    }
+    
 }
